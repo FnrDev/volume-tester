@@ -1,0 +1,30 @@
+{
+  "name": "volume-tester",
+  "version": "1.0.0",
+  "description": "A web application for testing voice volume",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "voice",
+    "volume",
+    "audio",
+    "visualization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10",
+    "typescript": "^5.1.6"
+  }
+}
